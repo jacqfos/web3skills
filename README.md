@@ -4,8 +4,16 @@ Auto-install Web3 AI skills for Claude Code. MIT License.
 
 ## Quick Start
 
+One-liner (run from your project root):
+
 ```bash
-# Copy web3skills.sh to your project root, then:
+curl -fsSL https://raw.githubusercontent.com/jacqfos/web3skills/main/web3skills.sh | bash
+```
+
+Or download first, then run:
+
+```bash
+curl -fsSLO https://raw.githubusercontent.com/jacqfos/web3skills/main/web3skills.sh
 bash web3skills.sh
 
 # Options
