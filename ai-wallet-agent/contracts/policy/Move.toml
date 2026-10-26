@@ -1,0 +1,11 @@
+[package]
+name = "wallet_policy"
+edition = "2024"
+
+[dependencies]
+# Ika's deployed coordinator package. Pin `rev` to a tag/commit before mainnet.
+# Switch `testnet` -> `mainnet` in the subdir when deploying to mainnet.
+ika_dwallet_2pc_mpc = { git = "https://github.com/dwallet-labs/ika.git", subdir = "deployed_contracts/testnet/ika_dwallet_2pc_mpc", rev = "main" }
+
+[addresses]
+wallet_policy = "0x0"

@@ -35,5 +35,8 @@ bash web3skills.sh -y          # skip confirmation
 - `.claude/skills/skills-lock.json` — installed skill hashes
 - `CLAUDE.md` — updated with skill references
 
+## Example project
+[`ai-wallet-agent/`](ai-wallet-agent/): a personal AI wallet agent on Ika zero-trust dWallets. The AI proposes, a Sui Move policy enforces hard limits, the user approves with their share, and Ika signs (Ethereum + Solana).
+
 ## License
 MIT — use freely, even commercially.

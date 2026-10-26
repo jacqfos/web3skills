@@ -1,0 +1,24 @@
+{
+  "maxDailyUsd": 500,
+  "maxTxPerDay": 10,
+  "maxSlippagePct": 1,
+  "maxPriceAgeSec": 300,
+  "evm": [
+    {
+      "chainId": 11155111,
+      "maxFeeGwei": 100,
+      "maxPriorityGwei": 5,
+      "maxGasLimit": 300000,
+      "tokens": [
+        { "address": "", "symbol": "ETH", "decimals": 18, "maxPerTx": "0.2" },
+        { "address": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14", "symbol": "WETH", "decimals": 18, "maxPerTx": "0.2" },
+        { "address": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238", "symbol": "USDC", "decimals": 6, "maxPerTx": "400" }
+      ],
+      "destinations": ["<YOUR_OWN_EVM_ADDRESS_OR_THE_DWALLET_ADDRESS>", "<A_FRIEND_YOU_PAY_OFTEN>"],
+      "routers": ["0x3bFA4769FB09eefC5a80d6E87c3B9C650f7Ae48E"]
+    }
+  ],
+  "solana": [
+    { "cluster": 103, "maxPerTxSol": "2", "destinations": ["<SOLANA_DESTINATION_BASE58>"] }
+  ]
+}

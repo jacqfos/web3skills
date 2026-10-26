@@ -1,0 +1,13 @@
+{
+  "network": "testnet",
+  "policyId": "<POLICY_OBJECT_ID from `npm run wallet -- create-dwallet`>",
+  "wallet": {
+    "owner": "<OWNER_SUI_ADDRESS>",
+    "evm": "<DWALLET_EVM_ADDRESS>",
+    "solana": "<DWALLET_SOLANA_ADDRESS>"
+  },
+  "addressBook": { "alice": "<ALICE_ADDRESS>" },
+  "defaultChain": "sepolia",
+  "port": 8787,
+  "webhookUrl": "https://ntfy.sh/<your-private-topic>"
+}
